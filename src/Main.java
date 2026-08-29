@@ -2,6 +2,6 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Welcome to silent hill 2 remake poderoso");
+        System.out.println("Welcome to Gears of war e day");
     }
 }
