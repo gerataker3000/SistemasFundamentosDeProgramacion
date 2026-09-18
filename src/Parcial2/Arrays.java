@@ -8,10 +8,16 @@ public class Arrays {
         //musicaFea[0] = "Corridos";
         //musicaFea[1] = "Banda";
         String[] categoriaChidaMusica = {"Pop", "Rock and roll", "Bolero", "Jazz"};
+        System.out.println(categoriaChidaMusica[0]);
+        System.out.println(categoriaChidaMusica[2]);
+        categoriaChidaMusica[2] = "Hip hop";
+        System.out.println(categoriaChidaMusica[2]);
+        System.out.println(categoriaChidaMusica.length);
         for (int iterador = 0; iterador < categoriaChidaMusica.length ; iterador++){
             System.out.println(iterador);
             System.out.println(categoriaChidaMusica[iterador]);
         }
+        System.exit(0);
 
         // Forma de iterar un arreglo
 
