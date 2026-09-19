@@ -8,16 +8,34 @@ public class Arrays {
         //musicaFea[0] = "Corridos";
         //musicaFea[1] = "Banda";
         String[] categoriaChidaMusica = {"Pop", "Rock and roll", "Bolero", "Jazz"};
+        for (int iterado= 0; iterado<categoriaChidaMusica.length; iterado++){
+            if(categoriaChidaMusica[iterado].equals("Pop")){
+                System.out.println(categoriaChidaMusica[iterado]);
+                System.out.println("Chayyane, Michael Jakcson");
+            }
+
+            //IMAGINADO QUE AL PROFE NO LE GUSTA :)
+            if(categoriaChidaMusica[iterado].equals("Rock and roll")){
+                continue;
+                //System.out.println(categoriaChidaMusica[iterado]);
+                //System.out.println("Nirvana, Yourlove");
+            }
+
+            if(categoriaChidaMusica[iterado].equals("Bolero")){
+                System.out.println(categoriaChidaMusica[iterado]);
+                System.out.println("Quien sabe");
+                break;
+            }
+
+        }
+
+
+        System.exit(0);
         System.out.println(categoriaChidaMusica[0]);
         System.out.println(categoriaChidaMusica[2]);
         categoriaChidaMusica[2] = "Hip hop";
         System.out.println(categoriaChidaMusica[2]);
         System.out.println(categoriaChidaMusica.length);
-        for (int iterador = 0; iterador < categoriaChidaMusica.length ; iterador++){
-            System.out.println(iterador);
-            System.out.println(categoriaChidaMusica[iterador]);
-        }
-        System.exit(0);
 
         // Forma de iterar un arreglo
 
