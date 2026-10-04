@@ -12,6 +12,6 @@ public class VariableGlobalLocal {
             System.out.println(vidas);
             System.out.println(nivel);
         }
-        System.out.println(vidas);
+        //System.out.println(vidas);
     }
 }
